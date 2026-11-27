@@ -12,10 +12,10 @@ Every patrol point is chosen without the hider's position. The audit samples fiv
 
 Questions and cards are disabled. Seekers begin at the local platform, use public patrols, stay together, and receive a 1200-second audit cap. Each chosen hiding probe was outside the old sampler's coverage. These conditions deliberately differ from normal matches.
 
-| District | Captured | Game seconds | Exceeds Quick's 240-second cap |
+| District | Captured | Game seconds | Exceeds Quick's 360-second cap |
 | --- | --- | ---: | --- |
-| city | Yes | 291 | Yes |
-| hill | Yes | 270 | Yes |
+| city | Yes | 291 | No |
+| hill | Yes | 270 | No |
 | rural | Yes | 367 | Yes |
 | lake | Yes | 189 | No |
 | coast | Yes | 198 | No |
@@ -23,7 +23,7 @@ Questions and cards are disabled. Seekers begin at the local platform, use publi
 | market | Yes | 180 | No |
 | forest | Yes | 88 | No |
 
-A complete inspection plan does not guarantee a capture during a four-minute search, particularly against a moving player. Human pacing and corner-camping results remain unmeasured.
+A complete inspection plan does not guarantee a capture during a six-minute search, particularly against a moving player. Human pacing and corner-camping results remain unmeasured.
 
 ## Sprint
 

@@ -2,6 +2,7 @@ import { districtRead, nearbyResident } from './residents';
 import { serviceNote, serviceStop } from './service-conditions';
 import { PLAYBACK_SPEEDS } from './playback';
 import { watchCaptures, captureMoment } from './capture-presentation';
+import { answerTool } from './answer-tool';
 import { FORMATS, DIFFICULTIES } from './session';
 import { coachMarkup } from './coach';
 import { valueAt } from './questions';
@@ -95,8 +96,7 @@ export function panelClockPaused(s: State, panel: Panel) {
 export interface UIState {
   roleIntroKey?: string;
   roleIntroUntil?: number;
-  answerFeedback?: string;
-  answerKey?: string;
+  answerPreparedKey?: string;
   panel: Panel;
   selectedStation: number;
   category: Category;
@@ -164,7 +164,8 @@ const set = (id: string, html: string) => {
   }
   el.innerHTML = html;
   markup.set(id, html);
-  if (focus) el.querySelector<HTMLElement>(focus)?.focus({ preventScroll: true });
+  const restore = focus ? el.querySelector<HTMLElement>(focus) : null;
+  if (restore) restore.focus({ preventScroll: true });
   else if (id === 'overlay' && html)
     el.querySelector<HTMLElement>('button:not(:disabled),input,select,[role=button]')?.focus({
       preventScroll: true,
@@ -607,20 +608,16 @@ function paintPanel(s: State, u: UIState) {
         })
         .join(
           '',
-        )}</div><div class="panel-footnote">Distances are straight-line fictional kilometres. Thermometers compare your last completed station journey. Hiders choose a truthful reply; verified clues go into your notebook.</div>`,
+        )}</div><div class="panel-footnote">Distances are straight-line fictional kilometres. Thermometers compare your last completed station journey. Hiders prepare and send truthful replies; verified clues go into your notebook.</div>`,
       true,
     );
   if (u.panel === 'reaction') {
     const challenge = answerChallenge(s),
       q = challenge?.q;
-    if (u.answerKey !== challenge?.key) {
-      u.answerKey = challenge?.key;
-      u.answerFeedback = '';
-    }
     html = modal(
       'Question received',
       'TACTICAL PAUSE · EVERYONE IS FROZEN',
-      `<div class="reaction-body answer-challenge"><h3>${esc(q?.title || 'Question waiting')}</h3><p class="field-guide">${esc(challenge?.guide || '')}</p><p><b>Draw ${q?.draw}, keep ${q?.keep}</b> after answering.</p><div class="answer-options">${challenge?.choices.map((choice) => '<button data-action="answer" data-value="' + esc(choice) + '" class="outline-button">' + esc(q?.arg === 'position' ? 'Take and send photograph' : choice) + '</button>').join('') || ''}</div>${u.answerFeedback ? '<p class="answer-feedback" role="alert">' + esc(u.answerFeedback) + '</p>' : ''}<details class="answer-help" data-disclosure="answer-map"><summary>Check my field map</summary>${regionalMap(s, { ...u, selectedStation: s.committed ?? 0 })}<p>Your portrait marks your current location. This question refers to your committed district.</p></details>${s.hand.some((id) => CARDS[id].reaction) ? '<details><summary>Play a reaction instead</summary><div class="reaction-cards">' + s.hand.map((id, i) => (CARDS[id].reaction ? smallCard(CARDS[id], i) : '')).join('') + '</div></details>' : ''}</div>`,
+      `<div class="reaction-body answer-fieldkit"><h3>${esc(q?.title || 'Question waiting')}</h3>${challenge ? answerTool(s, u.answerPreparedKey === challenge.key, esc) : ''}<details class="answer-help" data-disclosure="answer-map"><summary>Check my field map</summary>${regionalMap(s, { ...u, selectedStation: s.committed ?? 0 })}<p>Your portrait marks your current location. This question refers to your committed district.</p></details>${s.hand.some((id) => CARDS[id].reaction) ? '<details><summary>Play a reaction instead</summary><div class="reaction-cards">' + s.hand.map((id, i) => (CARDS[id].reaction ? smallCard(CARDS[id], i) : '')).join('') + '</div></details>' : ''}</div>`,
       false,
       false,
     );

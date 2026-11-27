@@ -30,6 +30,7 @@ import {
 import { shell, paint, initialUI, handExpanded, panelClockPaused, type Panel } from './ui';
 import { setPlaybackSpeed, PLAYBACK_SPEEDS } from './playback';
 import { captureMoment, dismissCapture } from './capture-presentation';
+import { answerChallenge } from './answer-challenge';
 import type { State, Category } from './types';
 import { CARDS } from './cards';
 import { freshSeed } from './run';
@@ -533,9 +534,15 @@ function act(action: string, el?: HTMLElement) {
     else ui.panel = null;
     return;
   }
+  if (action === 'prepare-answer') {
+    ui.answerPreparedKey = answerChallenge(state)?.key;
+    soundscape.cue('ui');
+    return;
+  }
   if (action === 'answer') {
-    const err = submitHumanAnswer(state, value ?? '');
-    ui.answerFeedback = err ?? '';
+    if (ui.answerPreparedKey !== answerChallenge(state)?.key) return;
+    const err = submitHumanAnswer(state);
+    if (err) notify(err);
     if (!err) {
       ui.panel = null;
       notify('Truthful answer sent. Choose your card reward.');

@@ -11,7 +11,6 @@ import {
   ask,
 } from '../../src/simulation';
 import { pathfind } from '../../src/local';
-import { answerChallenge } from '../../src/answer-challenge';
 import { route } from '../../src/world';
 import { mkdirSync, writeFileSync } from 'node:fs';
 const SAVE = 'last-stop-match-v1';
@@ -121,7 +120,8 @@ test('human hider answers, selects rewards, pays card costs and gets a truthful 
   s.pending = { id: 'photo-station', origin: 0, previous: 0, askedBy: 1, changed: false };
   await seedSave(page, serialize(s));
   await expect(page.getByRole('dialog', { name: 'Question received' })).toBeVisible();
-  await page.getByRole('button', { name: answerChallenge(s)!.correct, exact: true }).click();
+  await page.locator('[data-action=prepare-answer]').click();
+  await page.getByRole('button', { name: 'Send reply', exact: true }).click();
   await expect(page.getByRole('dialog', { name: 'Choose your reward' })).toBeVisible();
   await page.locator('[data-action=reward-pick]').first().click();
   await page.getByRole('button', { name: 'Keep 1 / 1 selected' }).click();
@@ -214,7 +214,9 @@ async function advanceHumanRound(page: Page, seconds = 75) {
     if (await page.locator('[data-action=replay]').count()) return;
     try {
       if (await page.locator('.capture-banner').isVisible()) {
-        await page.locator('#capture-continue').click();
+        await page.locator('#capture-continue').click({ timeout: 750 });
+      } else if (await page.locator('[data-action=prepare-answer]').count()) {
+        await page.locator('[data-action=prepare-answer]').click({ timeout: 750 });
       } else if (await page.locator('[data-action=answer]').count()) {
         const choices = page.locator('[data-action=answer]');
         const count = await choices.count();
@@ -229,12 +231,12 @@ async function advanceHumanRound(page: Page, seconds = 75) {
       } else if (await page.locator('[data-action=overflow-discard]').count())
         await page.locator('[data-action=overflow-discard]').first().click();
       else if ((await page.locator('.speed-rates [data-value="4"]').getAttribute('aria-pressed')) !== 'true')
-        await setSpeed(page, 4);
+        await setSpeed(page, 4, 750);
     } catch (error) {
       if (
         !(await page
           .locator(
-            '[data-action=replay],[data-action=answer],[data-action=keep-reward],[data-action=overflow-discard]',
+            '[data-action=replay],[data-action=prepare-answer],[data-action=answer],[data-action=keep-reward],[data-action=overflow-discard]',
           )
           .count())
       )

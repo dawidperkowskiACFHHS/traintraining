@@ -2883,16 +2883,6 @@ legend {
   width: 45px;
   height: 44px;
 }
-.answer-challenge {
-  text-align: left;
-  padding: 20px 26px;
-}
-.answer-challenge h3 {
-  font:
-    700 1.35rem/1.3 Atkinson,
-    sans-serif;
-  margin: 0 0 16px;
-}
 .field-guide {
   background: #eee8d8;
   color: #514c68;
@@ -2900,37 +2890,9 @@ legend {
   border-radius: 6px;
   line-height: 1.55;
 }
-.answer-options {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-  margin: 18px 0;
-}
-.answer-options button {
-  min-height: 52px;
-  white-space: normal;
-  font-size: 1.08rem;
-  text-align: center;
-  justify-content: center;
-}
-.answer-feedback {
-  color: #944638;
-  background: #eee8d8;
-  padding: 12px;
-  border-radius: 5px;
-}
 .answer-help .regional-map {
   max-height: 340px;
   width: 100%;
-}
-.answer-challenge details {
-  margin: 14px 0;
-}
-.answer-challenge summary {
-  cursor: pointer;
-  color: #514c68;
-  font-weight: 700;
-  padding: 7px 0;
 }
 .effect progress {
   display: block;
@@ -2997,19 +2959,6 @@ legend {
     top: 100px;
     width: min(400px, calc(100vw - 180px));
   }
-  .answer-challenge {
-    padding: 16px 20px;
-  }
-}
-
-.answer-challenge .field-guide {
-  color: #514c68;
-}
-.answer-challenge .answer-feedback {
-  color: #944638;
-}
-.answer-challenge summary {
-  color: #514c68;
 }
 .compact-panel {
   display: flex;
@@ -3026,12 +2975,6 @@ legend {
   left: 24px;
   transform: none;
   width: min(400px, calc(100vw - 540px));
-}
-.answer-challenge .field-guide {
-  margin-bottom: 14px;
-}
-.answer-challenge > p {
-  margin-top: 12px;
 }
 .effect b {
   font-size: 1rem;

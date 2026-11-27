@@ -561,12 +561,11 @@ export function answer(s: State) {
       );
   }
 }
-export function submitHumanAnswer(s: State, choice: string): string | null {
+export function submitHumanAnswer(s: State, choice?: string): string | null {
   const challenge = answerChallenge(s);
   if (s.hider !== 0 || !challenge) return 'There is no incoming question to answer.';
-  if (!challenge.choices.includes(choice)) return 'Choose one of the answers shown.';
-  if (choice !== challenge.correct)
-    return 'Check your field guide and try again. Nothing has been sent; everyone is still paused.';
+  if (choice !== undefined && choice !== challenge.correct)
+    return 'Replies are determined by your district. No false reply was sent.';
   answer(s);
   return null;
 }

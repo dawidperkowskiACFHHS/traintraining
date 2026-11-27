@@ -18,7 +18,7 @@ Cards rest below the screen in a small fan. Hover, keyboard focus, R or controll
 
 Atkinson Hyperlegible Next supplies readable interface copy and world signs. Pixelify Sans supplies only short gameplay headings, the role label and timer. Barlow Condensed supplies the large title logotype. Avoid pixel fonts for questions, instructions, paragraphs and card rules. Body text starts at 16px and scales to 140%. Preserve keyboard focus, semantic button labels, gamepad navigation, reduced motion and scroll access at 880×700 with enlarged text.
 
-The incoming-question window sits near the bottom and pairs the question/factual guide with a cursor-led answer list. Keep reward copy short, and put the map and reaction cards behind optional disclosure. Incorrect answers stay local and permit a retry; published clues come from the authoritative evaluator. Panel clock labels must match actual simulation behavior. Paperwork runs on the clock; required replies/rewards freeze everyone.
+The incoming-question window sits near the bottom and pairs the question with an interactive field kit and a truthful reply ticket. Keep reward copy short, and put the map and reaction cards behind optional disclosure. There are no wrong-answer choices: compare stations, trace distances, sweep radar, compare the journey, follow a compass or take a real scene photograph, then send the authoritative reply. Preparation spends nothing and reaction cards remain available. Panel clock labels must match actual simulation behavior. Paperwork runs on the clock; required replies/rewards freeze everyone.
 
 ## World and characters
 

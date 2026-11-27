@@ -12,7 +12,7 @@ This candidate adds a complete playable introduction, clearer deduction evidence
 - Deterministic fast services, signal delays and short automatic repairs. Route estimates include the condition, repair progress and scenery actually stop, and seekers travel together.
 
 - More detailed traveler sprites, clustered foliage, material-specific facades, roof furniture, entrance details and matching map miniatures. Scenery fades around the player and arrivals spread the party.
-- Incoming questions require a human reply with a field guide, optional map and safe retries; every published clue remains authoritative and truthful.
+- Incoming questions use an interactive field kit and a Send reply action. Every prepared reply is automatically truthful; there are no incorrect-answer options. Photographs preview the actual image sent.
 - A true NPC head-start skip, compact routine panels, explicit clock state, actionable curse progress and visible completion.
 - Selected itinerary highlighting, recent exclusion marks and a short next-action notice after important events.
 - Varied NPC hiding choices and up to two short, sight-based escapes; used attempts persist in saves.

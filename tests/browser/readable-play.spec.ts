@@ -30,7 +30,9 @@ test.beforeEach(async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
 });
 
-test('human chooses a reply, retries safely, and answers with keyboard or controller', async ({ page }) => {
+test('human prepares a truthful reply with a field tool and transmits with keyboard or controller', async ({
+  page,
+}) => {
   const state = newGame('field-guide-replies', 20, 'hider');
   state.phase = 'search';
   state.time = state.searchAt = 130;
@@ -41,16 +43,18 @@ test('human chooses a reply, retries safely, and answers with keyboard or contro
   const challenge = answerChallenge(state)!;
   await load(page, state);
   await expect(page.locator('.panel-clock')).toContainText('Clock paused');
-  await expect(page.locator('.field-guide')).toContainText(state.world.stations[3].name);
-  const wrong = challenge.correct === 'Yes' ? 'No' : 'Yes';
-  await page.getByRole('button', { name: wrong, exact: true }).focus();
+  await expect(page.locator('[data-action=answer]')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Yes', exact: true })).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'No', exact: true })).toHaveCount(0);
+  await page.locator('[data-action=prepare-answer]').focus();
   await page.keyboard.press('Enter');
-  await expect(page.getByRole('alert')).toContainText('Nothing has been sent');
+  await expect(page.locator('.reply-value')).toHaveText(challenge.correct);
+  await expect(page.locator('.field-guide')).toContainText(state.world.stations[3].name);
   expect(
     await page.evaluate(() => JSON.parse(localStorage.getItem('last-stop-match-v1')!).evidence.length),
   ).toBe(0);
-  await page.screenshot({ path: 'artifacts/field-play/answer-retry.png', animations: 'disabled' });
-  await page.getByRole('button', { name: challenge.correct, exact: true }).focus();
+  await page.screenshot({ path: 'artifacts/field-play/answer-prepared.png', animations: 'disabled' });
+  await page.getByRole('button', { name: 'Send reply', exact: true }).focus();
   await page.evaluate(() => {
     const pad = {
       id: 'Field controller',
@@ -85,6 +89,51 @@ test('head-start skip and compact investigation expose the next action and clock
   await page.keyboard.press('Escape');
   await page.keyboard.press('Escape');
   await expect(page.getByRole('button', { name: 'Fullscreen', exact: true })).toBeVisible();
+});
+
+test('all six answer tools prepare only truth, including a real photograph and enlarged text', async ({
+  page,
+}) => {
+  const state = newGame('truthful-field-kit', 20, 'hider');
+  state.phase = 'search';
+  state.time = state.searchAt = 130;
+  state.committed = 3;
+  state.actors[0].station = 3;
+  state.actors.forEach((actor) => (actor.nextThink = 1e9));
+  await page.goto('/');
+  for (const id of ['zone', 'measure-coast', 'radar-25', 'warmer', 'landmarks', 'photo-position']) {
+    state.pending = { id, origin: 0, previous: 2, askedBy: 1, changed: false };
+    state.settings.textScale = id === 'measure-coast' ? 1.4 : 1;
+    await page.setViewportSize({
+      width: id === 'measure-coast' ? 880 : 1280,
+      height: id === 'measure-coast' ? 700 : 800,
+    });
+    await page
+      .locator('#save-file')
+      .setInputFiles({
+        name: 'field-kit.json',
+        mimeType: 'application/json',
+        buffer: Buffer.from(serialize(state)),
+      });
+    await expect(page.locator('.answer-fieldkit h3')).toHaveText(answerChallenge(state)!.q.title);
+    await expect(page.locator('[data-action=answer]')).toHaveCount(0);
+    await page.locator('[data-action=prepare-answer]').click();
+    await expect(page.locator('.reply-value')).toHaveText(
+      id === 'photo-position' ? 'Photo attached' : answerChallenge(state)!.correct,
+    );
+    await expect(page.getByRole('button', { name: 'Send reply', exact: true })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    if (id === 'radar-25' || id === 'measure-coast')
+      await page.screenshot({ path: `artifacts/field-play/answer-${id}.png`, animations: 'disabled' });
+    if (id === 'photo-position') {
+      expect(
+        await page.locator('.answer-camera img').evaluate((img) => (img as HTMLImageElement).naturalWidth),
+      ).toBe(288);
+      await page.screenshot({ path: 'artifacts/field-play/answer-photograph.png', animations: 'disabled' });
+      await page.getByRole('button', { name: 'Send reply', exact: true }).click();
+      await expect(page.getByRole('dialog', { name: 'Choose your reward' })).toBeVisible();
+    }
+  }
 });
 
 test('bridge task gives directions, progress and a visible completion without opening a card guide', async ({

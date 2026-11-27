@@ -2,8 +2,8 @@ import { test as base, expect } from '@playwright/test';
 import type { Page } from '@playwright/test';
 export type { Page } from '@playwright/test';
 export { expect };
-export async function setSpeed(page: Page, speed: 1 | 2 | 4 | 8) {
-  await page.locator('.speed-rates [data-value="' + speed + '"]').click();
+export async function setSpeed(page: Page, speed: 1 | 2 | 4 | 8, timeout = 5000) {
+  await page.locator('.speed-rates [data-value="' + speed + '"]').click({ timeout });
 }
 export async function openMenu(page: Page) {
   if (!(await page.locator('.tool-drawer').isVisible()))

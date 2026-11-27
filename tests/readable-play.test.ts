@@ -52,7 +52,7 @@ describe('human-readable play and decisions', () => {
     expect(skipHeadStart(hider)).not.toBeNull();
     expect(hider.time).toBe(0);
   });
-  it('offers truthful, stable choices for every question without consuming randomness', () => {
+  it('prepares a truthful field tool for every question without consuming randomness', () => {
     const state = newGame('question-field-guide', 20, 'hider');
     state.phase = 'search';
     state.committed = 3;
@@ -61,14 +61,15 @@ describe('human-readable play and decisions', () => {
       state.pending = { id: q.id, origin: 0, previous: 2, askedBy: 1, changed: false };
       const rng = state.rng,
         challenge = answerChallenge(state)!;
-      expect(challenge.choices).toContain(valueAt(state.world, q, 0, 2, 3));
-      expect(challenge.choices.length).toBeLessThanOrEqual(4);
+      expect(challenge.correct).toBe(valueAt(state.world, q, 0, 2, 3));
+      expect(challenge.tool.action.length).toBeGreaterThan(5);
+      expect(challenge).not.toHaveProperty('choices');
       expect(answerChallenge(state)).toEqual(challenge);
       expect(state.rng).toBe(rng);
       expect(challenge.guide).toContain(state.world.stations[3].name);
     }
   });
-  it('lets the human retry and publishes no false clue or paid reward', () => {
+  it('rejects fabricated legacy replies and sends only authoritative truth', () => {
     const state = newGame('truthful-retry', 20, 'hider');
     state.phase = 'search';
     state.committed = 3;
@@ -76,11 +77,9 @@ describe('human-readable play and decisions', () => {
     state.pending = { id: 'zone', origin: 0, previous: 2, askedBy: 1, changed: false };
     const challenge = answerChallenge(state)!,
       before = serialize(state);
-    expect(submitHumanAnswer(state, challenge.correct === 'Yes' ? 'No' : 'Yes')).toMatch(
-      /Nothing has been sent/,
-    );
+    expect(submitHumanAnswer(state, challenge.correct === 'Yes' ? 'No' : 'Yes')).toMatch(/No false reply/);
     expect(serialize(state)).toBe(before);
-    expect(submitHumanAnswer(state, challenge.correct)).toBeNull();
+    expect(submitHumanAnswer(state)).toBeNull();
     expect(state.pending).toBeNull();
     expect(state.evidence.at(-1)?.answer).toBe(challenge.correct);
     expect(state.candidates).toContain(3);

@@ -43,7 +43,7 @@ Resolve progression blockers, misunderstood rules and repeated pacing failures f
 ## New decision and clarity checks
 
 - As a seeker, skip the rest of an NPC head start. Confirm the hider still reaches a district and cover and no preparation is skipped for the human hiding role.
-- As a hider, answer a comparison, distance and photo question. Choose a wrong answer once: no false clue or reward may be sent. Explain the correct choice using the field guide or map, then finish the reward with mouse, keyboard and a physical controller.
+- As a hider, prepare a comparison, distance, radar, journey, nearest-marker and photo reply. No false-answer choices should appear. Check that preparation alone sends no evidence or reward; Send reply publishes the computed truth. Compare the camera preview with the seekers' photo, then finish rewards using mouse, keyboard and a physical controller.
 - Clear Bridge Club by following its directions and holding for 15 uninterrupted seconds. Leave midway and confirm progress resets; ask the player to explain why a question is blocked. Completion must be visible without opening the notebook.
 - Count unwanted interruptions with compact investigation and paperwork panels. At 140% text on an 880×700 window, all stamps and Submit must remain reachable. Check every clock-running/paused label against actual simulation movement.
 - Follow the highlighted itinerary and explain the latest crossed-off places. Keep the destination visible while approaching the station, identify through trains versus the booked service, watch boarding, and compare train, bus, ferry and foot views.
