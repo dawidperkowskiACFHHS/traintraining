@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "title": "Tourist Trap",
+    "asset": "public/art/cards/0.webp",
+    "prompt": "Original anime travel comedy card illustration: apricot-jacket traveler caught in an avalanche of souvenirs and friendly pigeon mascots. Expressive manga linework, polished cel shading, teal and plum companions, richly painted railway-town background. No text, logos, or existing characters."
+  },
+  {
+    "id": "title",
+    "title": "Title scene",
+    "asset": "public/art/title.webp",
+    "prompt": "Create a widescreen 16:9 finished background illustration for the main menu of an original indie anime travel hide-and-seek adventure. A beautiful small railway town at blue hour, a warmly lit vintage teal passenger train on a curving viaduct, glowing station windows, distant forested mountains and stars, lush plants. Three original young adventurers, one in an apricot jacket and cap, one in teal and one in plum, stand with backpacks looking toward the town and the coming journey. Expressive crisp manga linework, beautiful cel-shaded anime background painting, atmospheric luminous lighting, cobalt/navy/teal/apricot/gold palette, richly detailed and inviting. Place the main train and characters in the right two thirds; the left third is quiet dark-blue evening foliage and sky suitable for readable menu text. No words, no typography, no logo, no frame, no watermark, no existing franchise characters or symbols. Cinematic full-bleed landscape, polished game key art, not pixel art."
+  },
+  {
+    "id": 1,
+    "title": "Bridge Club",
+    "asset": "public/art/cards/1.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Bridge Club. Scene: Two young travelers in teal and plum are forced to play an absurdly intense card game with smug pigeons at a tiny table on a leafy stone bridge; our apricot-jacket traveler escapes in the background."
+  },
+  {
+    "id": 2,
+    "title": "Department of Forms",
+    "asset": "public/art/cards/2.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Department of Forms. Scene: Our apricot-jacket traveler battles an avalanche of flying forms and gigantic red rubber stamps while a tiny stern pigeon clerk presides over an ornate railway desk. Funny heroic paperwork duel."
+  },
+  {
+    "id": 3,
+    "title": "Wrong Platform",
+    "asset": "public/art/cards/3.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Wrong Platform. Scene: Teal- and plum-jacket travelers skid dramatically to a stop on the wrong station platform as a charming train departs from the other track; the apricot traveler peeks playfully from its window."
+  },
+  {
+    "id": 5,
+    "title": "Brain Fog",
+    "asset": "public/art/cards/5.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Brain Fog. Scene: A plum-jacket traveler searches through whimsical swirling violet thought clouds shaped like question marks while their teal-jacket friend tries to remember a map; atmospheric and funny."
+  },
+  {
+    "id": 6,
+    "title": "One Percent Battery",
+    "asset": "public/art/cards/6.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: One Percent Battery. Scene: The apricot-jacket traveler desperately tries to charge a nearly empty phone using a glowing potato and a tiny pigeon with heroic determination. Dramatic low-angle absurd adventure scene."
+  },
+  {
+    "id": 8,
+    "title": "Scenic Route",
+    "asset": "public/art/cards/8.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Scenic Route. Scene: A teal- and a plum-jacket traveler must climb a comically winding flower-filled hillside footpath past a tiny beautiful flower, while the apricot traveler rides a train far below."
+  },
+  {
+    "id": 7,
+    "title": "Five More Minutes",
+    "asset": "public/art/cards/7.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Five More Minutes. Scene: A sleepy apricot-jacket traveler clings to an enormous old-fashioned alarm clock while two frustrated rival travelers and a departure-ready train wait behind, dynamic manga comedy."
+  },
+  {
+    "id": 4,
+    "title": "Right Is Right",
+    "asset": "public/art/cards/4.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Right Is Right. Scene: A teal-jacket traveler uses a ludicrous glowing compass while road arrows spiral clockwise around a crooked town junction; all paths twist right. Dynamic humorous perspective."
+  },
+  {
+    "id": 10,
+    "title": "Crossword Emergency",
+    "asset": "public/art/cards/10.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Crossword Emergency. Scene: A teal-jacket traveler and a plum-jacket traveler confront a gigantic folding crossword puzzle like a dramatic battle scroll; expressive baffled faces, flying pencils and empty puzzle squares with no readable letters."
+  },
+  {
+    "id": 11,
+    "title": "Lost Luggage",
+    "asset": "public/art/cards/11.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Lost Luggage. Scene: A mischievous wheeled suitcase with little wing-like straps flees down a cobbled railway-town street while travelers in teal and plum chase it with shocked comic expressions."
+  },
+  {
+    "id": 9,
+    "title": "Platform Picnic",
+    "asset": "public/art/cards/9.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Platform Picnic. Scene: Two determined travelers in teal and plum are trapped in an unexpectedly lavish picnic on a station bench with a triumphant pigeon host, lunch boxes and floating tea steam."
+  },
+  {
+    "id": 12,
+    "title": "Absolutely Not",
+    "asset": "public/art/cards/12.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Absolutely Not. Scene: The apricot-jacket traveler makes a bold emphatic stop gesture, deflecting a storm of curious question-shaped energy with a luminous blue protective seal. Playful original anime trading-card hero shot."
+  },
+  {
+    "id": 14,
+    "title": "Spring Cleaning",
+    "asset": "public/art/cards/14.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Spring Cleaning. Scene: The apricot-jacket traveler performs a whirlwind broom sweep that sends harmless curse-shaped smoky sprites and dust pigeons tumbling out of a cozy station waiting room."
+  },
+  {
+    "id": 17,
+    "title": "Where Are You Again?",
+    "asset": "public/art/cards/17.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Where Are You Again?. Scene: The apricot-jacket traveler holds up an ornate glowing folded map whose light reveals two surprised teal- and plum-clad travelers far across a moonlit railway town. Cinematic magical cartography."
+  },
+  {
+    "id": 13,
+    "title": "Ask Me Something Else",
+    "asset": "public/art/cards/13.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Ask Me Something Else. Scene: The apricot-jacket traveler wields a magnificent folding fan that blows a flock of question-shaped paper birds back toward the surprised teal- and plum-jacket travelers; elegant energetic comic motion."
+  },
+  {
+    "id": 15,
+    "title": "Suspiciously Large Pockets",
+    "asset": "public/art/cards/15.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Suspiciously Large Pockets. Scene: A gleeful apricot-jacket traveler reaches into impossibly large magical jacket pockets spilling out maps, snacks, a tiny train and a pigeon mascot; bold funny anime perspective."
+  },
+  {
+    "id": 18,
+    "title": "Changed My Mind",
+    "asset": "public/art/cards/18.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Changed My Mind. Scene: The apricot-jacket traveler leaps dramatically between two colorful railway departures, an energetic swirl of map pages tracing their unexpected change of plan; determined funny expression."
+  },
+  {
+    "id": 16,
+    "title": "Double Dip",
+    "asset": "public/art/cards/16.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Double Dip. Scene: The apricot-jacket traveler triumphantly balances two spectacular ice-cream scoops that resemble glowing treasure orbs, with playing-card-shaped confetti and playful pigeons circling."
+  },
+  {
+    "id": 19,
+    "title": "Emergency Exit",
+    "asset": "public/art/cards/19.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Emergency Exit. Scene: The apricot-jacket traveler makes a spectacular nimble escape through a café back door in a swirling harmless blue smoke cloud as two surprised rival travelers round the corner. Original shonen action scene."
+  },
+  {
+    "id": 21,
+    "title": "Snack Break",
+    "asset": "public/art/cards/21.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Snack Break. Scene: The apricot-jacket traveler takes a blissful heroic bite from an enormous layered sandwich at a tiny railway café, brilliant sparkles and comedic determined expression, pigeons eye the crumbs."
+  },
+  {
+    "id": 20,
+    "title": "Bus Nap",
+    "asset": "public/art/cards/20.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Bus Nap. Scene: A peaceful apricot-jacket traveler sleeps against a gently glowing bus window with a small pigeon companion, passing countryside and warm sunset outside. Cozy but richly illustrated anime adventure interlude."
+  },
+  {
+    "id": 22,
+    "title": "Souvenir Collection",
+    "asset": "public/art/cards/22.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Souvenir Collection. Scene: The apricot-jacket traveler displays an elaborate collection of whimsical railway pins, stamps, mini landmarks and pigeon mascots like precious adventure treasures; proud sparkling eyes."
+  },
+  {
+    "id": 23,
+    "title": "Still Here Somehow",
+    "asset": "public/art/cards/23.webp",
+    "prompt": "Asset: one finished original anime trading-card illustration for an indie travel hide-and-seek game. Style: polished playful shonen adventure, expressive original young travelers, crisp dynamic manga ink contours, rich cel shading, luminous hand-painted railway-town backgrounds, dramatic perspective and clear central silhouettes. Consistent palette: dusk navy, cobalt, teal, apricot and golden highlights. Main traveler has tousled chestnut hair, amber eyes, apricot jacket, small cap and backpack; companions wear teal and plum jackets. No existing franchise characters, symbols, logos, no words or letters, no card frame, no watermark. Landscape art composition with central characters and breathing room for a game card crop. Card title for thematic context only, do not render text: Still Here Somehow. Scene: The apricot-jacket traveler is disguised inside a tiny pine-tree costume, peeking out mischievously while teal- and plum-jacket rivals sprint past through a dusk town garden. Playful stealth comedy."
+  }
+]

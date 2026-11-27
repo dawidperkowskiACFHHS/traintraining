@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1c2b" />
+    <meta name="application-name" content="Last Stop" />
+    <meta
+      name="description"
+      content="Every stop has a secret. A single-player travel hide-and-seek adventure."
+    />
+    <meta name="apple-mobile-web-app-title" content="Last Stop" />
+    <link rel="icon" href="/brand/last-stop.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/icon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/brand/last-stop-small.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/brand/icon-180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Last Stop</title>
+    <style>
+      html {
+        background: #0b1c2b;
+      }
+      .boot-screen {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-content: center;
+        justify-items: center;
+        gap: 16px;
+        color: #eff5f5;
+        font:
+          16px/1.4 'Segoe UI',
+          sans-serif;
+      }
+      .boot-screen p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot-screen" role="status">
+        <img src="/brand/last-stop-mark.svg" width="96" height="96" alt="" />
+        <p>Loading Last Stop…</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

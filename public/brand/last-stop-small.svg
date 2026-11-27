@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" shape-rendering="crispEdges">
+  <title>Last Stop</title>
+  <rect width="32" height="32" rx="6" fill="#0b1c2b"/>
+  <path d="M8 3H24V5H26V13H24V18H26V25H24V29H8V27H6V19H8V13H6V5H8Z" fill="#ecc787"/>
+  <path d="M12 6H20V8H22V20H20V22H12V20H10V8H12Z" fill="#0b1c2b"/>
+  <path d="M12 8H20V19H12Z" fill="#447fd7"/>
+  <path d="M12 10H15V14H12ZM17 10H20V14H17Z" fill="#c4e6df"/>
+  <path d="M12 16H14V18H12ZM18 16H20V18H18Z" fill="#fff1bf"/>
+  <path d="M12 22H14L11 27H9ZM18 22H20L23 27H21Z" fill="#0b1c2b"/>
+  <path d="M11 24H21V25H11Z" fill="#0b1c2b"/>
+</svg>

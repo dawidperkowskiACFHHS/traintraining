@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "headStart": 120,
+    "searchCap": 600,
+    "questionCooldown": 20,
+    "cardCooldown": 10,
+    "walkSpeed": 3.2
+  },
+  "personalities": [
+    { "name": "You", "cadence": 0.8, "ambiguity": 0.7, "travelAppetite": 0.02, "variation": 6 },
+    { "name": "Mira", "cadence": 0.7, "ambiguity": 1.4, "travelAppetite": 0.01, "variation": 3 },
+    { "name": "Kit", "cadence": 1.1, "ambiguity": 0.2, "travelAppetite": 0.08, "variation": 10 }
+  ]
+}

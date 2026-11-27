@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" shape-rendering="crispEdges">
+  <title>Last Stop</title>
+  <rect id="surface" width="64" height="64" rx="12" fill="#0b1c2b"/>
+  <rect id="edge" x="1" y="1" width="62" height="62" rx="11" stroke="#486675" stroke-width="2"/>
+  <g id="emblem">
+    <path d="M17 6H47V10H52V26H48V36H52V50H47V57H17V53H12V37H16V27H12V10H17Z" fill="#ecc787"/>
+    <path d="M19 9H44V12H17V24H20V39H16V49H20V53H44V50H48V39H44V23H48V13H44V9" fill="#c69b62"/>
+    <path d="M24 12H40V15H44V39H41V44H23V41H20V16H24Z" fill="#0b1c2b"/>
+    <path d="M25 15H39V18H41V36H38V40H26V37H23V18H25Z" fill="#447fd7"/>
+    <path d="M25 15H39V18H25Z" fill="#8ebcf0"/>
+    <path d="M25 20H39V29H25Z" fill="#c4e6df"/>
+    <path d="M31 20H33V29H31Z" fill="#17384c"/>
+    <path d="M25 27H39V29H25Z" fill="#75afc0"/>
+    <path d="M25 32H29V35H25ZM35 32H39V35H35Z" fill="#fff1bf"/>
+    <path d="M28 38H36V40H28Z" fill="#17384c"/>
+    <path d="M25 44H28L23 53H19ZM36 44H39L45 53H41Z" fill="#0b1c2b"/>
+    <path d="M24 46H40V48H24ZM22 51H42V53H22Z" fill="#0b1c2b"/>
+    <path d="M43 10H47V15H43Z" fill="#bc705c"/>
+  </g>
+</svg>

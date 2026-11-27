@@ -1,0 +1,41 @@
+LAST STOP — 1.1.0 RELEASE CANDIDATE
+
+1. Extract the complete zip to a folder.
+2. Double-click Last Stop.exe. No Node, npm or terminal is needed.
+3. Choose Learn to play for a playable introduction, or New journey.
+
+Requires 64-bit Windows with Microsoft Edge and .NET Framework 4.8.
+The launcher serves only bundled game files on 127.0.0.1:53621.
+The game works offline after extraction. No account is required.
+Ollama is optional; classic NPCs play when it is unavailable.
+This prerelease executable is unsigned. Do not bypass your organization's device rules.
+
+Keep the game folder beside Last Stop.exe. Close the game before replacing files.
+To update, extract the new version to another folder and launch its exe.
+The dedicated local browser profile and saves remain in:
+%LOCALAPPDATA%\LastStop\Browser
+Use Settings > Export save before an update as an additional portable backup.
+To move an existing browser/development journey into this Windows build, export
+it from the old game, then use Settings > Saves & recovery > Import save here.
+The Windows app uses its own browser profile.
+The launcher exits automatically after all game windows stop sending their heartbeat.
+
+CONTROLS
+WASD / arrows / left stick: walk. Click the ground: walk there.
+Shift / right trigger: sprint. H / controller X: hide beside cover.
+E / controller A: interact or tag. M / controller Y: region map.
+Q: questions. N: notebook. T: party. C: cards. V: appearance.
+Clock buttons: 1x normal, 2x / 4x / 8x fast-forward. [ / ] changes speed.
+Hover the tucked cards or press R / controller LB to fan out your hand.
+Arrows / stick: choose a card. Enter / A: inspect. Escape / B: stow.
+Space: pause. Escape / Start: field tools. Escape / B: back in menus.
+Settings has Fullscreen, remapping and grouped audio/accessibility controls.
+Your teammate suggests questions in Ask; approve one or choose your own.
+Automatic questioning is an optional setting under Controls & assistance.
+Cover prompts appear near your traveler. Keep still when Concealed; break
+sightlines when Spotted. E / A: Tag appears only within clear tagging reach.
+
+FEEDBACK
+Use Settings > Export playtest / support report, then fill in feedback.html.
+Both files stay on your computer until you choose to share them.
+See PLAYTEST.md for a short test route and the remaining release gates.

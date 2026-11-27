@@ -1,0 +1,30 @@
+{
+  "name": "last-stop",
+  "version": "1.1.0-rc.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/prepare-offline.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:browser": "playwright test",
+    "audit:stealth": "node scripts/stealth-audit.mjs",
+    "format": "prettier --write src tests scripts *.ts *.json *.html *.md docs/*.md",
+    "assets": "node scripts/make-card-art.mjs",
+    "release:windows": "npm run build && powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/package-windows.ps1",
+    "verify:release": "node scripts/verify-release.mjs",
+    "assets:icons": "node scripts/make-app-icons.mjs"
+  },
+  "dependencies": {
+    "phaser": "4.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "22.19.1",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3",
+    "vite": "6.4.6",
+    "vitest": "4.1.12"
+  }
+}

@@ -1,0 +1,977 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 60,
+  "height": 44,
+  "tilewidth": 16,
+  "tileheight": 16,
+  "infinite": false,
+  "nextlayerid": 9,
+  "nextobjectid": 49,
+  "tilesets": [],
+  "layers": [
+    {
+      "id": 1,
+      "name": "city",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 1,
+          "name": "cafe",
+          "type": "building",
+          "x": 80,
+          "y": 112,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "house",
+          "type": "building",
+          "x": 272,
+          "y": 112,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "house",
+          "type": "building",
+          "x": 560,
+          "y": 112,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "library",
+          "type": "building",
+          "x": 80,
+          "y": 384,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "home",
+          "type": "building",
+          "x": 288,
+          "y": 384,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "house",
+          "type": "building",
+          "x": 576,
+          "y": 384,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "market",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 7,
+          "name": "cafe",
+          "type": "building",
+          "x": 64,
+          "y": 112,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "house",
+          "type": "building",
+          "x": 272,
+          "y": 128,
+          "width": 128,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "house",
+          "type": "building",
+          "x": 576,
+          "y": 112,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "library",
+          "type": "building",
+          "x": 80,
+          "y": 384,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "home",
+          "type": "building",
+          "x": 320,
+          "y": 384,
+          "width": 80,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "house",
+          "type": "building",
+          "x": 592,
+          "y": 384,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "coast",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 13,
+          "name": "cafe",
+          "type": "building",
+          "x": 80,
+          "y": 112,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "house",
+          "type": "building",
+          "x": 288,
+          "y": 128,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "house",
+          "type": "building",
+          "x": 592,
+          "y": 128,
+          "width": 112,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "library",
+          "type": "building",
+          "x": 96,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "home",
+          "type": "building",
+          "x": 304,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "house",
+          "type": "building",
+          "x": 608,
+          "y": 400,
+          "width": 112,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "lake",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 19,
+          "name": "cafe",
+          "type": "building",
+          "x": 80,
+          "y": 128,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "house",
+          "type": "building",
+          "x": 304,
+          "y": 112,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "house",
+          "type": "building",
+          "x": 560,
+          "y": 112,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "library",
+          "type": "building",
+          "x": 80,
+          "y": 384,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "home",
+          "type": "building",
+          "x": 288,
+          "y": 384,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "house",
+          "type": "building",
+          "x": 608,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "forest",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 25,
+          "name": "cafe",
+          "type": "building",
+          "x": 80,
+          "y": 128,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "house",
+          "type": "building",
+          "x": 304,
+          "y": 112,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "house",
+          "type": "building",
+          "x": 576,
+          "y": 128,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "library",
+          "type": "building",
+          "x": 80,
+          "y": 384,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "home",
+          "type": "building",
+          "x": 304,
+          "y": 400,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "house",
+          "type": "building",
+          "x": 608,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "hill",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 31,
+          "name": "cafe",
+          "type": "building",
+          "x": 80,
+          "y": 112,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "house",
+          "type": "building",
+          "x": 304,
+          "y": 128,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "house",
+          "type": "building",
+          "x": 560,
+          "y": 112,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "library",
+          "type": "building",
+          "x": 96,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "home",
+          "type": "building",
+          "x": 304,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "house",
+          "type": "building",
+          "x": 608,
+          "y": 400,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "rail",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 37,
+          "name": "cafe",
+          "type": "building",
+          "x": 64,
+          "y": 112,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "house",
+          "type": "building",
+          "x": 272,
+          "y": 112,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "house",
+          "type": "building",
+          "x": 560,
+          "y": 112,
+          "width": 144,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "library",
+          "type": "building",
+          "x": 80,
+          "y": 384,
+          "width": 128,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "home",
+          "type": "building",
+          "x": 288,
+          "y": 384,
+          "width": 112,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "house",
+          "type": "building",
+          "x": 576,
+          "y": 384,
+          "width": 160,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "rural",
+      "type": "objectgroup",
+      "opacity": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 43,
+          "name": "cafe",
+          "type": "building",
+          "x": 80,
+          "y": 144,
+          "width": 96,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "house",
+          "type": "building",
+          "x": 304,
+          "y": 112,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "name": "house",
+          "type": "building",
+          "x": 576,
+          "y": 128,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "library",
+          "type": "building",
+          "x": 96,
+          "y": 400,
+          "width": 96,
+          "height": 80,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "home",
+          "type": "building",
+          "x": 304,
+          "y": 384,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "house",
+          "type": "building",
+          "x": 624,
+          "y": 384,
+          "width": 80,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "enterable",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
